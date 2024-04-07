@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.content-table thead tr {
+    background: #009879;
+    color:#ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,.content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd ;
+}
+.content-table tbody tr:nth-of-type(even)
+{
+    background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+button a{
+	color:#fff;
+	font-weight:bold;
+	font-size:18px;
+	text-decoration:none;
+}
+
+button{
+	background:#009879;
+	border:none;
+	padding:5px;
+}
+
+div.login form.login-form{
+    position: absolute;
+    right:3%;
+    top:80px;
+    background-color: rgb(43, 36, 40);
+    padding:15px;
+    border-radius: 5px;
+    display: none;
+}
+form {
+	width:500px;
+	background:#ccc;
+	padding:20px;
+	border:none;
+	border-radius:10px;
+}
+form label{
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+}
+form input{
+	width:400px;
+	border:none;
+	padding:10px;
+	margin:2px;
+}
+form button{
+    margin:10px;
+    border-radius: 5px;
+}
